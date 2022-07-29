@@ -9,7 +9,9 @@ A LVR Token is always valid for 30 minutes, but you can also just gen it every r
 
 in the headers it should look like this:
 ```
-"__lvr_mobile_api_token__" : "{YOUR LVR TOKEN}"
+"__lvr_mobile_api_token__" : "[YOUR LVR TOKEN]" 
+
+Example: "st=1658805332~exp=1658807432~acl=*~hmac=e886bceea2ef815b4c01ba9ec2f3fdd8d45d63f2f15fe313d9774c4aa248bb75"
 ```
 
 I hope it will help!
